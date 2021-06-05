@@ -12,7 +12,7 @@ $user = new user;
 //if user logged in redirect user to index page
 session::userLogin();
 
-
+// update on reg form and database 
 
 if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit'])){
     $userRegi = $user->userRegistration($_POST);

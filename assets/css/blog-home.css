@@ -1,0 +1,23 @@
+/*!
+ * Start Bootstrap - Blog Home (https://startbootstrap.com/template-overviews/blog-home)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-home/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+.mypagination {
+  padding: 5px 10px 5px 10px;
+  background: #007bff;
+  margin: 2px;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+
+}
+
+.mypagination:hover {
+  background: black;
+  color: white;
+}

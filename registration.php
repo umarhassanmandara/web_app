@@ -13,7 +13,6 @@ $user = new user;
 session::userLogin();
 
 // update on reg form and database 
-
 if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit'])){
     $userRegi = $user->userRegistration($_POST);
 }

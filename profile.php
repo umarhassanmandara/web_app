@@ -84,3 +84,15 @@ if($userdata){
         </div>
     </div>
 </div>
+
+<div class="tt">
+        <div class="all-post">
+            
+        </div>
+            <form class="myForm" enctype="multipart/form-data">
+                <textarea name="post" id="" cols="30" rows="10" class="post-box"></textarea>
+            <button class="make-post">make post</button>
+            </form>
+            
+    </div>
+    <script src="javaScripts/profile.js"></script>
